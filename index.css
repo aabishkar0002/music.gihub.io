@@ -1,0 +1,105 @@
+h1
+{
+	text-align: center;
+}
+
+body
+{
+	background: mediumpurple;
+}
+
+img
+{
+	border-radius: 30px;
+}
+
+.album
+{
+	padding: 10px;
+	margin-left: 50px;
+}
+
+.main
+{
+	background: black;
+	opacity: ;
+	border-radius: 20px;
+	width: 1130px;
+	margin-left: 50px;
+
+}
+
+
+.pics
+{
+	height:180px ;
+	width: 280px;
+}
+
+audio
+{
+	width: 280px;
+}
+
+
+
+   @media only screen and (max-width: 600px)
+   {
+
+
+
+   	h1
+   	{
+   		text-align: left;
+   		margin-left: 10px;
+   	}
+
+   	.main
+   	{
+   		background-color: mediumpurple;
+   		margin-left: -50px;
+   		width: 300px;
+   	}
+
+   	
+		  table {
+		    display: flex;
+		    flex-direction: column;
+		  }
+
+		  tbody, tr {
+		    display: flex;
+		    flex-direction: row;
+		    flex-wrap: wrap;
+		  }
+
+		  td {
+		    flex: 1;
+		    width: 100%; /* Adjust the width as needed */
+		    box-sizing: border-box;
+		    padding: 5px;
+		  }
+
+
+
+   		img
+   		{
+   			height:160px ;
+   			width: 260px;
+   			align-content: center;
+   		}
+
+
+   		audio{
+   			width: 280px;
+   		}
+
+   		.album
+   		{
+   			margin-top: -45px;
+   			background: black;
+   			background: none;
+   			padding: 0px;
+   		}
+
+    }
